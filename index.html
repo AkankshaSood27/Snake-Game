@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: whitesmoke;/*rgb(135, 197, 42);  background color */
+    }
+
+    #mycanvas {
+      background-image: url("Assets/bg.jpg");
+      background-size: cover; /* Ensures the background image covers the entire canvas */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      border: 10px solid green;
+      width: 600px; /* Set width of the canvas */
+      height: 600px; /* Set height of the canvas */
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="mycanvas"></canvas>
+  <script src="snake.js"></script>
+</body>
+</html>
